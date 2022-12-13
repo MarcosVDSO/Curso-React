@@ -19,7 +19,9 @@ export default () => (
     <Aleatorio min={10} max={50}/>   
     <Aleatorio min={15} max={1000}/>   
     <Aleatorio min={10} max={87848}/>   
-    <Aleatorio min={10} max={575}/>   
+    <Aleatorio min={10} max={575}/> 
+    <Aleatorio min={125} max={956}/>   
+    <Aleatorio min={52} max={5896}/>     
     <MinMax min={3} max={20}/>
     <Comp1/>
     <Comp2/>
@@ -30,7 +32,7 @@ export default () => (
 
 const style = StyleSheet.create({
   App: {
-    backgroundColor: '#FF6961',
+    backgroundColor: '#FF6965',
     flexGrow: 1,
     justifyContent: "center",
     alignItems: 'center',

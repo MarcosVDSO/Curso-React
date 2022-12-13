@@ -3,8 +3,8 @@ import { Text } from "react-native";
 
 export default (props) => {
     const {min, max} = props
-    const delta = max - min + 1
-    const resultado = parseInt(Math.random()*delta)+min
+    const discriminante = max - min + 1
+    const resultado = parseInt(Math.random()*discriminante)+min
 
     return (<Text> O resultado é {resultado}</Text>)
 }
